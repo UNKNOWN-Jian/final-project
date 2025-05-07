@@ -1,0 +1,35 @@
+footer {
+    background-color: #edfaf9;
+}
+
+.feet {
+    display: flex;
+    margin-top: 10rem;
+    justify-content: center;
+    font-family:'Courier New', Courier, monospace;
+    column-gap: 20px;
+}
+
+.feet > img {
+    width: 50px;
+}
+
+.feet > h1 {
+    font-size: 27px;
+}
+
+.line {
+    border-right: solid 2px black;
+    height: 55  px;
+}
+
+.list {
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    font-size: larger;
+
+}
+
+
