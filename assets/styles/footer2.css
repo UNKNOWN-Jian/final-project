@@ -8,4 +8,6 @@
 .list ul {
     display: flex;
     flex-direction: column;
+   
+
 }
