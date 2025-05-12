@@ -1,0 +1,22 @@
+.text-pointer {
+    display: flex;
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6rem;
+    height: 2rem;
+    background: darkcyan;
+    border-radius: 0.7rem;
+    cursor: pointer;
+    border: none;
+    color: white;
+}
+
+button:hover {
+    background-color: #1d1d1d;
+}

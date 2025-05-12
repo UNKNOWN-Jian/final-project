@@ -1,0 +1,23 @@
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.2rem;
+    gap: 1rem;
+}
+
+.card-item {
+    width: 11rem;
+    height: 13rem;
+    box-shadow: 3px 3px 1px rgba(168, 167, 167, 0.856);
+}
+
+.card-text {
+    text-align: center;
+}
+
+.card-text h1 {
+    padding-top: 0.2rem;
+    font-size: 1rem;
+    color: darkcyan;
+}

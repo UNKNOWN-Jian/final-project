@@ -1,0 +1,21 @@
+.trend-up {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.trend-main-text {
+    color: darkcyan;
+    margin-left: 3rem;
+}
+
+.forward {
+    margin-right: 3rem;
+    margin-top: 5rem;
+}
+
+.forward h3 > a {
+    text-decoration: none;
+    color: darkcyan;
+}

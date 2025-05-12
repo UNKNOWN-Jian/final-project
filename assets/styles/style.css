@@ -1,5 +1,13 @@
 @import url(header.css);
+@import url(footer.css);
+
+
 @import url(container.css);
+@import url(button.css);
+@import url(trend.css);
+@import url(card.css);
+@import url(types.css);
+@import url(collection.css);
 
 
 
@@ -7,5 +15,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body, html {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
 }
 
