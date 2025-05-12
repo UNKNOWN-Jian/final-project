@@ -39,3 +39,39 @@
 .c-button {
     margin-top: 0.5rem;
 }
+
+@media only screen and (max-width: 768px) {
+    .collection-icon {
+        width: 18rem;
+        height: 18rem;
+    }
+
+    .collection-icon i {
+        font-size: 11rem;
+    }
+
+    .collection-text {
+        width: 25rem;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    .collection-content {
+        flex-direction: column;
+    }
+
+    .read {
+        text-align: center;
+    }
+
+    .collection-text {
+        width: 21.5rem;
+    }
+
+    .c-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0.8rem;
+    }
+}

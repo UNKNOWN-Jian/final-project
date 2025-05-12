@@ -41,3 +41,46 @@
     margin-top: 0.5rem;
     color: #088383;
 }
+
+@media only screen and (max-width: 768px) {
+    .types {
+        height: 108.5rem;
+    }
+
+    .types-text {
+        font-size: 1.7rem;
+    }
+
+    .types-content {
+        flex-direction: column;
+    }
+
+    .types-items {
+        width: 13rem;
+        height: 13rem;
+    }
+
+    .types-items i {
+        font-size: 6.5rem;
+    }
+
+    .types-items-text {
+        font-size: 1.5rem;
+    }
+
+}
+
+@media only screen and (max-width: 426px) {
+    .types {
+        height: 90rem;
+    }
+
+    .types-items {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .types-items i {
+        font-size: 4.5rem;
+    }
+}

@@ -21,3 +21,39 @@
     font-size: 1rem;
     color: darkcyan;
 }
+
+@media only screen and (max-width: 768px) {
+    .card {
+        flex-direction: column;
+        margin-top: 2.2rem;
+    }
+
+    .card-item {
+        width: 30rem;
+        height: 18rem;
+        box-shadow: 8px 8px 1px rgba(168, 167, 167, 0.856);
+    }
+
+    .card-text h1 {
+        padding-top: 1.2rem;
+        font-size: 1.5rem;
+    }
+
+    .card-text p {
+        padding-top: 0.8rem;
+    }
+}
+
+
+@media only screen and (max-width: 426px) {
+    .card-item {
+        width: 18rem;
+        height: 15rem;
+        box-shadow: 3px 3px 1px rgba(168, 167, 167, 0.856);
+    }
+
+    .card-text h1 {
+        padding-top: 0.7rem;
+        font-size: 1.2rem;
+    }
+}

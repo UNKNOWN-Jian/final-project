@@ -1,5 +1,6 @@
 .text-pointer {
     display: flex;
+    gap: 1.5rem;
     margin-left: 3rem;
     margin-top: 1rem;
 }
@@ -17,6 +18,17 @@ button {
     color: white;
 }
 
+.text-pointer-box a {
+    text-decoration: none;
+}
+
 button:hover {
     background-color: #1d1d1d;
+}
+
+@media only screen and (max-width: 768px) {
+    .text-pointer {
+        gap: 1rem;
+        margin-left: 2rem;
+    }
 }
