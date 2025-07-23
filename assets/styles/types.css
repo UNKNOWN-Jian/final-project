@@ -5,6 +5,13 @@
     margin-top: 7rem;
 }
 
+.types-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .types-text {
     text-align: center;
     padding-top: 2.5rem;
@@ -15,7 +22,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 5rem;
     margin-top: 2rem;
 }
 
@@ -36,9 +43,6 @@
 }
 
 .types-items-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-top: 0.5rem;
     color: #088383;
 }
