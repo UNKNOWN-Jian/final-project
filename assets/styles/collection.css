@@ -17,9 +17,10 @@
     background-color: #33685b;
 }
 
-.collection-icon i {
-    font-size: 13rem;
-    color: white;
+.collection-icon img {
+    width: 17.5rem;
+    height: 17.5rem;
+    border-radius: 50%;
 }
 
 .collection-text {

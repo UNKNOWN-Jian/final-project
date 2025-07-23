@@ -29,9 +29,10 @@
     border-radius: 50%;
 }
 
-.types-items i {
-    font-size: 4.5rem;
-    color: rgb(241, 227, 227);
+.types-items > img {
+    width: 7.5rem;
+    height: 7.5rem;
+    border-radius: 50%;
 }
 
 .types-items-text {
